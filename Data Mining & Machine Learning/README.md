@@ -1,1 +1,1 @@
-In this folder there is my `Data Mining & Machine Learning` project realized for the homonymous Master course. The dataset used is contained in `aac_dogs.csv` (for more informations on it look at the README.pdf file).
+In this folder there is my `Data Mining & Machine Learning` project realized for the homonymous Master course. The dataset used is contained in `aac_dogs.csv` (for more informations on it look at the dataset_info.pdf file).
