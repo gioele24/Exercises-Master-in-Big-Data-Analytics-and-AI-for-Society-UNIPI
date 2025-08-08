@@ -1,0 +1,121 @@
+/* CSS properties can be found at <https://www.w3schools.com/cssref/> */
+
+table#classifica {
+  width: 100%;    
+  border-collapse: collapse;
+}
+
+/* change the dimension, font, and background and text color of the table header */
+
+thead {
+  line-height: 40px;
+  font-family: Verdana; 
+  font-weight: normal; 
+  background-color: #000000;
+  color: white;
+}
+
+/* change the font family of the table body */
+
+tbody {
+  font-family: Arial;
+}
+
+/* add a margin to the left of the trend symbol */
+
+span.andamento {
+  margin-left: 10%;
+}
+
+/* set positive trend symbol color to green */
+
+span.su {
+  color: green;
+}
+
+/* set neutral trend symbol color to orange */
+
+span.uguale {
+  color: orange;
+}
+
+/* set negative trend symbol color to red */
+
+span.giu {
+  color: red;
+}
+
+/* change team logos position, dimension and alignment */
+
+.pippo {
+  color: red;
+}
+
+
+img.logo_squadra {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+/* put internal and external solid grey borders on the table */
+
+th, tr, td {
+  border: 1px solid grey;
+}
+
+/* set header font to normal */
+
+th {
+   font-weight: normal;
+}
+
+/* set body row height to 30px */
+
+tr {
+  height: 30px;
+}
+
+/* set body row background color */
+
+tbody tr {
+  background-color: #fde9eb
+}
+
+/* change champions qualified team rows to light blue <https://html-color.codes/hex/c5dcee> */
+
+tr.champions {
+  background-color: #c5dcee;
+}
+
+/* change Europa League qualified team rows to light violet <https://html-color.codes/hex/eccfe1> */
+
+tr.euro-league {
+  background-color: #eccfe1;
+}
+
+/* change Europa League preliminar qualified team row to light orange <https://html-color.codes/hex/d9c2d0> */
+
+tr.prelim-euro-league {
+  background-color: #d9c2d0;
+}
+
+/* set cells height to 30px and text alignment to center */
+
+td {
+  text-align: center;
+  line-height: 30px;
+}
+
+/* align the second column to the left */
+
+th:nth-of-type(2), td:nth-of-type(2) {
+  text-align: left;
+}
+
+/* add a 40px left padding to the second column header */
+
+th:nth-of-type(2) {
+  padding-left: 40px;
+}

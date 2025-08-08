@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="esercitazione selettori"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="style.css">
+  <title>JS Bin</title>
+</head>
+<body>
+  <table id="day23">
+    <caption><em>Serie A Ranking after 23rd Day</em></caption>
+    <colgroup>
+      <col style="width:15%" />
+      <col style="width:45%" />
+      <col style="width:10%" />
+      <col style="width:10%" />
+      <col style="width:10%" />
+      <col style="width:10%" />
+    </colgroup>
+    <thead id="classifica_head1">
+      <tr>
+        <th></th>
+        <th>Squadra</th>
+        <th>Pt</th>
+        <th>V</th>
+        <th>N</th>
+        <th>P</th>
+      </tr>
+    </thead>
+    <tbody id="classifica_body1">
+      <tr class="champions">
+        <td>1<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/9.png" class="logo_squadra" />Juventus
+        </td>
+        <td>63
+        </td>
+        <td>20
+        </td>
+        <td>3
+        </td>
+        <td>0
+        </td>
+      </tr>
+      <tr class="champions">
+        <td>2<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/11.png" class="logo_squadra" />Napoli
+        </td>
+        <td>52
+        </td>
+        <td>16
+        </td>
+        <td>4
+        </td>
+        <td>3
+        </td>
+      </tr>
+      <tr class="champions">
+        <td>3<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/8.png" class="logo_squadra" />Inter
+        </td>
+        <td>43
+        </td>
+        <td>13
+        </td>
+        <td>4
+        </td>
+        <td>6
+        </td>
+      </tr>
+      <tr class="champions">
+        <td>4<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/10.png" class="logo_squadra" />Milan
+        </td>
+        <td>39
+        </td>
+        <td>10
+        </td>
+        <td>9
+        </td>
+        <td>4
+        </td>
+      </tr>
+      <tr class="euro-league">
+        <td>5<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/2.png" class="logo_squadra" />Atalanta
+        </td>
+        <td>38
+        </td>
+        <td>11
+        </td>
+        <td>5
+        </td>
+        <td>7
+        </td>
+      </tr>
+      <tr class="prelim-euro-league">
+        <td>6<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/12.png" class="logo_squadra" />Roma
+        </td>
+        <td>38
+        </td>
+        <td>10
+        </td>
+        <td>8
+        </td>
+        <td>5
+        </td>
+      </tr>
+      <tr>
+        <td>7<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/26.png" class="logo_squadra" />Lazio
+        </td>
+        <td>38
+        </td>
+        <td>11
+        </td>
+        <td>5
+        </td>
+        <td>7
+        </td>
+      </tr>
+      <tr>
+        <td>8<span class="andamento su">+</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/14.png" class="logo_squadra" />Torino
+        </td>
+        <td>34
+        </td>
+        <td>8
+        </td>
+        <td>10
+        </td>
+        <td>5
+        </td>
+      </tr>
+      
+      <tr class="altre">
+        <td>
+        </td>
+        <td>Tutto il resto...
+        </td>
+        <td>-
+        </td>
+        <td>-
+        </td>
+        <td>-
+        </td>
+        <td>-
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br />
+  <br />
+  <table id="day22">
+    <caption><em>Serie A Ranking after 22nd Day</em></caption>
+    <colgroup>
+      <col width="15%" />
+      <col width="45%" />
+      <col width="10%" />
+      <col width="10%" />
+      <col width="10%" />
+      <col width="10%" />
+    </colgroup>
+    <thead id="classifica_head2">
+      <tr>
+        <th></th>
+        <th>Squadra</th>
+        <th>Pt</th>
+        <th>V</th>
+        <th>N</th>
+        <th>P</th>
+      </tr>
+    </thead>
+    <tbody id="classifica_body2">
+      <tr class="champions">
+        <td>1<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/9.png" class="logo_squadra" />Juventus
+        </td>
+        <td>60
+        </td>
+        <td>19
+        </td>
+        <td>3
+        </td>
+        <td>0
+        </td>
+      </tr>
+      <tr class="champions">
+        <td>2<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/11.png" class="logo_squadra" />Napoli
+        </td>
+        <td>51
+        </td>
+        <td>16
+        </td>
+        <td>3
+        </td>
+        <td>3
+        </td>
+      </tr>
+      <tr class="champions">
+        <td>3<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/8.png" class="logo_squadra" />Inter
+        </td>
+        <td>40
+        </td>
+        <td>12
+        </td>
+        <td>4
+        </td>
+        <td>6
+        </td>
+      </tr>
+      <tr class="champions">
+        <td>4<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/10.png" class="logo_squadra" />Milan
+        </td>
+        <td>36
+        </td>
+        <td>9
+        </td>
+        <td>9
+        </td>
+        <td>4
+        </td>
+      </tr>
+      <tr class="euro-league">
+        <td>5<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/2.png" class="logo_squadra" />Atalanta
+        </td>
+        <td>35
+        </td>
+        <td>10
+        </td>
+        <td>5
+        </td>
+        <td>7
+        </td>
+      </tr>
+      <tr class="prelim-euro-league">
+        <td>6<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/12.png" class="logo_squadra" />Roma
+        </td>
+        <td>35
+        </td>
+        <td>9
+        </td>
+        <td>8
+        </td>
+        <td>5
+        </td>
+      </tr>
+      <tr>
+        <td>7<span class="andamento uguale">=</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/26.png" class="logo_squadra" />Lazio
+        </td>
+        <td>35
+        </td>
+        <td>10
+        </td>
+        <td>5
+        </td>
+        <td>7
+        </td>
+      </tr>
+      <tr>
+        <td>8<span class="andamento su">+</span>
+        </td>
+        <td><img src="http://images2.gazzettaobjects.it/speciali/risultati_classifiche/2014/calcio/lib/images/squadre/loghi/small/13.png" class="logo_squadra" />Sampdoria
+        </td>
+        <td>33
+        </td>
+        <td>9
+        </td>
+        <td>6
+        </td>
+        <td>7
+        </td>
+      </tr>
+      
+      <tr class="altre">
+        <td>
+        </td>
+        <td>Everything else...
+        </td>
+        <td>-
+        </td>
+        <td>-
+        </td>
+        <td>-
+        </td>
+        <td>-
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div style="width: 100%; text-align: center;">
+    <div class="andamento altre">
+      disturbing element
+      <div>
+        <span> Other </span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

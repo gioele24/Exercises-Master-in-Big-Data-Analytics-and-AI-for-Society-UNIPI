@@ -1,0 +1,77 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* do the exercise starting from here */
+
+/* a red border on all the images */
+	
+img {
+  border: 1px solid red;
+}
+	
+/* internal and external grey borders on the tables */
+
+th, td {
+  border: 1px solid grey;
+}
+
+/* larger external border on tables */
+
+table {
+  border: 2px solid grey;
+}
+
+/* first table text font to bold
+
+N.B. With this selector you choose always this particular table. In particular, if someone add a new "first" table on the simulated site,
+you will continue to select the table with id="day23", that will be no longer the first one. To select always the first table, you can use:
+table:first-of-type
+The choice depends on what is the effect that you want to obtain!
+ */
+
+table#day23 {
+  font-weight: bold;
+}
+
+/* only the first table internal cells in bold */
+
+table:first-of-type tbody {
+  font-weight: bold;
+}
+
+/* the trend symbol (andamento) on the left with respect to the ranking for both tables */
+
+span.andamento {
+  float: left;
+}
+
+/* text aligned to the left for the Team column (Squadra) of both tables */
+
+td:nth-of-type(2) {
+  text-align: left;
+}
+
+/* text "Everything else..." in the second table aligned to the center */
+
+table#day22 tr.altre td:nth-of-type(2) {
+  text-align: center;
+}
+
+/* grey and white background color with a chessboard pattern in both tables */
+
+tr:nth-of-type(2n) td:nth-of-type(2n) {
+  background-color: grey;
+}
+
+tr:nth-of-type(2n+1) td:nth-of-type(2n+1) {
+  background-color: grey;
+}
+/* N.B.: the n operator scans all the positive integers: 0, 1, 2, ..., infinite.
+By writing 2n, for example, you select all the even positions, while with 2n+1 you will obtain the odds.
+Another example: tr:nth-of-type(n+2) select all the rows from 2 to the end!
+tr:nth-of-type(n+4):nth-of-type(-n+7) select the rows from 4 to 7 (pay attention to the - sign before n)
+More details and elegant keyword values can be found at <https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child>
+*/

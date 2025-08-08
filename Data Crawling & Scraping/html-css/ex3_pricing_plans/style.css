@@ -1,0 +1,84 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+/* Heading Style */
+h1 {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Pricing Container */
+.pricing-container {
+  /*justify-content: center;
+  align-items: center;*/
+  margin: 50px 10%;
+}
+
+/* Pricing Card */
+.pricing-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 3s, box-shadow 0.3s;
+}
+
+/* Recommended Plan Highlight */
+.recommended {
+  border: 2px solid #007bff;
+  background-color: #eaf4ff;
+  transform: scale(1.1);
+}
+
+/* Pricing Card Hover Effect */
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Price Style */
+.price {
+  font-size: 24px;
+  color: #007bff;
+  margin: 20px 0;
+}
+
+/* Feature List */
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pricing-card ul li {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Sign Up Button */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

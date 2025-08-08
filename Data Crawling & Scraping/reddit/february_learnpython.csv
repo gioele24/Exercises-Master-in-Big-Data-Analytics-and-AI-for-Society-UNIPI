@@ -1,0 +1,373 @@
+post_id,title,n_comments,upvotes,top_comment_id,top_comment_text,top_comment_upvotes
+10vd8hh,Ideas for beginner projects?,37,165,j7gptvz,"1\. Create a bot to reply to ""what are some beginner projects"" questions on r/learnpython, using [PRAW](https://praw.readthedocs.io/en/latest/index.html).
+
+Other than that, here are some beginner project ideas:
+
+* [a list of programming projects on Github](https://github.com/karan/Projects)
+* [another list from Github](https://github.com/jorgegonzalez/beginner-projects)
+* [a curated list of Python projects for beginners, intermediate & advance level programmers](https://www.theinsaneapp.com/2021/06/list-of-python-projects-with-source-code-and-tutorials.html)
+* [Tech with Tim Youtube channel, full of Python projects](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lkJOu1AWab-nFtjDw7aPek)
+* [resources in the subreddit wiki](https://www.reddit.com/r/learnpython/wiki/index#wiki_tools_for_learning_python)
+
+Good luck!
+
+edit. thanks for 5 upvotes!
+
+edit2. omg 10 upvotes!!!! Thank you!!
+
+edit3. 50 upvotes??? 😲😲😲 Can we make it to 100?
+
+edit4. 100 UPVOTES?????? I CAN DIE NOW
+
+^(Downvote me if the post wasn't a question about examples of beginner projects. Thank you.)",312
+10s97rj,Beginner projects,27,161,j7063jl,"1\. Create a bot to reply to ""what are some beginner projects"" questions on r/learnpython, using [PRAW](https://praw.readthedocs.io/en/latest/index.html).
+
+Other than that, here are some beginner project ideas:
+
+* [a list of programming projects on Github](https://github.com/karan/Projects)
+* [another list from Github](https://github.com/jorgegonzalez/beginner-projects)
+* [a curated list of Python projects for beginners, intermediate & advance level programmers](https://www.theinsaneapp.com/2021/06/list-of-python-projects-with-source-code-and-tutorials.html)
+* [Tech with Tim Youtube channel, full of Python projects](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lkJOu1AWab-nFtjDw7aPek)
+* [resources in the subreddit wiki](https://www.reddit.com/r/learnpython/wiki/index#wiki_tools_for_learning_python)
+
+Good luck!
+
+edit. thanks for 5 upvotes!
+
+edit2. omg 10 upvotes!!!! Thank you!!
+
+edit3. 50 upvotes??? 😲😲😲 Can we make it to 100?
+
+edit4. 100 UPVOTES?????? I CAN DIE NOW
+
+^(Downvote me if the post wasn't a question about examples of beginner projects. Thank you.)",214
+110c7w6,What's the point of recursion?,90,109,j884qe8,"Maybe the best example is tree traversal. It's very simple to write a recursive version. But if you wanted to do it iteratively, you'd need to keep track of where you are in the tree, the path back to the root.. The recursion does that for you.",200
+10rt169,"Why is ( 3 &lt; 13 ) True, but ( “3” &lt; “13” ) is False?",46,86,j6xdkub,"Hello,
+
+3 < 13 => numeric comparison
+""3"" < ""13"" => lexical comparison, caracter by caracter. So ""3"" < ""1"" is False",178
+10t1sj8,"""Just start coding""",101,185,j74t5m5,[cancellato],164
+110mqci,When to use CSV vs database?,48,127,j89qsv9,"SQL databases give you several things that CSV files don't.
+
+1. Working with data larger than you could fit in your process memory.
+2. Querying and Modifying Data faster than going over the entire dataset one by one (when using indexed columns)
+3. Creating relationships between different Tables, and querying and modifying things using that relationship.
+4. Working with a single data source safely from 2 or more processes.
+
+If you need or think you will need any of these features, consider moving to SQL based database.",164
+10qkaqo,How to learn Python without installation,85,130,j6qmzxe,Check out replit.com. It’s a browser based ide,157
+112hyvj,Best online course to actually learn to use Python,81,352,j8kth8u,"Would recommend the University of Helsinki course:
+https://programming-23.mooc.fi/
+
+Free, self paced. Has good integration with VSCode for testing and submitting your solutions. And it is in English, at least 99% of it. You'll run into random words and some of the Feedback prompts that are in Finnish still, but it's rare and haven't had it affect any of the actual coursework.",128
+10w01cs,Practical uses for Python for an average user ?,135,179,j7kun2a,"One of my first ever personal python scripts was to help me with shopping. 
+
+I manually wrote down what each aisle had at my supermarket (it was an Aldi, so not huge), and then wrote a script that would take a shopping list. 
+
+If it could already place it to an aisle it would automatically, otherwise it would ask at the end for an aisle and remember for future use. 
+
+The end result was I could give it a shopping list and it would give me back an ordered list of what to get in each aisle so I wasn't missing stuff and going back. 
+
+Over time I got fancier and started integrating it with checklist apps so I could check stuff off as I went round, or integrated it with recipes, so I could be like ""I'm gonna make tacos this week"" and it would go ""cool, in aisle one grab some peppers, in aisle two grab...""
+
+I wouldn't say it was a life changing script. But it was useful, practical, for me, and helped me learn a lot of the basics.",127
+10xheip,Petition to the Mods to allow removal of chatgpt posts,86,451,j7t4eoa,"I think it should be a bannable offense. If I want an answer from Chatgpt, I'll ask it. Someone here answering my question with ChatGPT is like posting a link to ""let me google that for you."" It's lazy and rude. 
+
+ChatGPT is famously confidently wrong, which makes it worse than a google search. Especially for a community that is learning python and may not be able to quickly spot the errors. And then that wrong answer gets indexed by google...",118
+10y604d,Falling in love with coding…,51,214,j7wghc3,"It's definitely cyclical, do not feel bad when you have weeks that you are not up for it or are unmotivated. When you are drivel by that kind of passion, you _will_ burn out, take a break and then come back. 100% expected.",116
+10wjmpu,Why didn't I learn this sooner?!,89,340,j7nubsb,"I keep a markdown file full of them. Every time I encounter a new tip or trick I copy it to my own personal cookbook. It's been my primary tool for years now. I think everybody should maintain one.
+
+Some extract from it.
+
+Slicing (most used patterns)
+
+* all but n last: ```list[:-n]```
+* all but n first: ```lsit[n:]```
+* reversed: ```list[::-1]```
+
+Switch variable (without temp var)
+
+* ```a,b = b,a```
+
+Easy dictionary creation (instead of typing the whole thing)
+
+    k = 'abc'
+    v = [1,2,3]
+    dct = {k:v for k,v in zip(k,v)}
+
+There's are of course much longer ones, like:
+
+* Dictionary dispatch pattern
+* NamedTuple (not namedtuple, they are not exactly the same thing)
+
+
+And always browse around the Python module of the week ([pymotw](https://pymotw.com/3/))",113
+10zqrx3,I can't seem to pick up Python and I feel like an idiot,59,106,j84s7jt,"I think you are getting very distracted/confused by setting up the environment, so don't - use a ready built environment already, such as replit.com. Yes, you do that in a browser, but it is not the same as Jupyter.
+
+For most purposes, terminal is the same as console. It is the text based, rather than graphical based, *window* / screen you work in.
+
+Python comes with a lot of batteries included. Much of this is in the form of libraries of code that provide more specialist functionality. These are already installed as part of a standard installation of Python (the CPython reference implementation of Python, written in C and Python, from the Python Software Foundation at python.org).
+
+These libraries are not automatically loaded into memory every time you start a Python running as that would use a lot of memory up and slow down start up time. Instead, you use, in your code, the command `import <library>`, e.g.
+
+    import math
+    
+    print(math.pi)
+
+There are thousands of programmes/packages/libraries/frameworks (all variations on the same basic idea of code written by other people) available that don't come as standard with an installation of Python that you have to install yourself.
+
+That's where the *package manager* `pip` comes in. It uses an official repository of such additional code that it searches for a match to what you ask to be installed.
+
+For example, using a command / powershell / terminal environment for your operating system,
+
+    pip install numpy
+
+would install the `numpy` library from the *pypi* respository.
+
+There is a complication here. Typically, on macOS or most linux systems, you would say,
+
+    pip3 install numpy
+
+or alternatively,
+
+    python3 -m pip install numpy
+
+This is because `python` often refers to the now unsupported older version 2.x of Python and for years we lived with both 2.x and 3.x.
+
+On Windows, you will often see `py` used instead,
+
+    py -m pip install numpy
+
+where `py` refers to the *python launcher* which should invoke the most up-to-date version of Python installed on your system regardless of **PATH** settings.
+
+The CPython programme can be invoked for two different purposes:
+
+* to attempt to execute a simple text file of python code (typically the files have an extension of `.py`
+* to enter an interactive shell, with a `>>> ` prompt, where you can enter python commands and get instant responses - great for trying things out
+
+So, entering the below, as appropriate for your operating system,
+
+    python
+    python3
+    py
+
+on its own, no file name after it, you will enter an interactive session.
+
+Enter `exit()` to return to the operating system command line
+
+A standard installation from python.org for Windows or macOS includes a programme called IDLE. This is a simple code editor and execution environment. By default, when you first open it, it opens a single window with a Python shell, with the `>>> ` prompt already open. To create a new text file to enter Python code into, you need to use your operating system means of access the standard menu and select *File* | *New*. Once you've entered code, press *F5* to attempt to run the code (you will be prompted to save the file first). This is really the easiest editor to use to begin with.
+
+Some operating system environments come with a version of Python pre-installed. For many years, macOS included an installation of python 2.7. This is known as the system version of Python. There may be python code used for utility purposes on your system that depend on this version of python. You can still install your own version.
+
+Given the thousands of packages (libraries, frameworks, etc) out there, you can see that if you are working on several different projects, you can end up installing a vast range of different packages, only a few of which will be used for any particular project.
+
+This is where Python virtual environments come in. Not to be confused with virtual machines. These are typically created on a project by project basis and most of the popular code editors and IDEs (integrated development environments) including Microsoft's VS Code and Jetbrain's PyCharm including built-in feature to help to start off new projects and create and activate Python virtual environments. Rather than installing a package to your base (personally installed) or system (if applicable) installed version of Python, you install the packages you need for the project you are working on in the project specific  Python virtual environment.
+
+You can create a new Python virtual environment from your operating system command line environment using,
+
+for Windows,
+
+    py -m venv venv
+
+or, for macOS / linux, 
+
+    python3 - m venv venv
+
+which creates a new folder in the current working directory called *venv* (taken from the last argument, you can use a different name).
+
+You then activate using,
+
+    venv\Scripts\activate
+
+or
+
+    source venv/bin/activate
+
+the command `deactivate` for any plaform will deactive the virtual environment and return you to using the base environment.
+
+Some IDEs, such as PyCharm, include their own facilities to install packages using `pip` or some other tool. This just saves you typing the commands.
+
+Many code editors and IDEs including the facility to open a terminal or console from within the IDE, just to keep everything together under one umbrella. This is typically still using your operating systems command line environment. PyCharm also talks about a Python Console, by which is means a Python interactive shell, as described above.
+
+There is nothing stopping you using whatever code editor / text editor / IDE you prefer (there are many, and some people get a bit *religious* about which is best, but it is a personal choice) to create/edit code and using your preferred command line environment separately to run the code you've created/edited - just remember to activate the same Python virtual environment in the command line environment as your editor/IDE is setup to use.
+
+An import reason for using Python virtual environments, but not so important early on, is that some packages conflict with each other. You may have to use particular versions for compatibility. That's much easier to manage on a project by project basis.
+
+Also, when sharing code with others or saving your code to a repository for your own future use / company use / public use, having a project specific environment makes it easier to keep track of exactly what packages not included as standard with Python have to be installed. The *dependencies*.
+
+Well, that was a quick bit of typing off the top of my head. Sorry about typos, grammar errors, etc. Hope it helps a bit.",107
+111cu0q,Can you apply to entry level jobs if you only know Python?,48,140,j8etmmk,"you DON'T only know python 
+
+you HAVE a CS degree",97
+10uh9a3,Do advanced python programmers just make their script from scratch from their head?,53,61,j7bsco7,"There's alot of toolkits, libraries, frameworks and the like which make the process alot easier, alot faster.
+
+Don't worry if you can't remember everything. It's all about repetition and it takes time. If you need to look something up then look something up. It's all good.",80
+10throj,"trying to make a code that prints all square numbers up to 5000 but it just goes past 5000 and doesnt stop, how to make it stop before 5000?",36,10,j76rv4p,The code seems correct and the loop stops when square becomes 5000. Maybe you want stop the execution when `square * square < 5000`?,51
+10ywd1i,"Beginner, how do you make a 1 dimensional array from 0-100 without out having to manually input every number?",30,29,j7zwx2h,"Assuming you mean a list, not an array: 
+
+    result = list(range(101))
+
+Note that 0-100 inclusive is 101 numbers, so the list has length 101.",47
+10w63qm,PyCharm basics.,51,17,j7l7831,[cancellato],43
+1122s0v,Is there an alternative way I could write this code below?,30,11,j8htvwy,    sum(sorted(mylist)[1: -1]),42
+10qgxyn,How fast did you learn python?,67,18,j6q43f6,Always learning,41
+10ss95z,How important is TDD in python and other testing tools and methodologies?,37,69,j73c0as,"First off, its important to get terminology right. TDD is a technique not a framework.  You could do TDD with pytest or unit test if you choose to. 
+
+TDD stands for test driven development. It means you write your tests firsts and make your code match your tests.  I have only seen TDD work well in agile teams where each sprint involves a small amount of work every period.  I have not seen a good adaption of it to a legacy code base  for example. 
+
+Even if your company is not following the TDD technique its important that dev use unit testing as part of their build cycle. 
+
+There is a lot more to be said about this if you research this on your own.  
+
+If the only form of testing being done is manual qa then the overall software policy is very expensive.  If the only way to catch bugs is by qa at the end of the dev cycle then the cycle has to begin all over again with fixing bugs.  In other words bugs caught by unit testing earlier in the cycle will cheaper to fix than after deployment.",33
+10znpg8,Just added voice support to ChatGPT to practice my english!,50,204,j840kn4,"[!](https://youtu.be/2P5qbcRAXVk)
+
+Finally a _good_ use for ChatGPT!
+
+ChatGPT doesn't have a good grasp on reality; it's only a language model. But it does have an _excellent_ grasp on the English language; it's a language model! Interactive conversation practice seems like a great application for it.",33
+110mjf7,What is the difference between print() and return?,28,15,j89p8im,"Try this in both cases:
+
+    result = hi(""Name"")
+    print(""Result:"", result)
+
+What do you notice?",33
+11170iv,head first python or python crash course,49,47,j8dbhhe,"Python Crash Course is a GREAT book for a beginner.
+
+edit: typo",30
+10sv6sg,"I asked ChatGPT to write a code, it said it wrote it in python and so to run it I downloaded Python. But all it does is open a cmd like thing. So how can I run it?",64,0,j73peaw,Ask chatgpt how to run python code.,29
+10s35ja,Best IDE to learn python in?,30,2,j6z6lis,[cancellato],24
+10wjo41,How to have a python program expire after a set period of time?,29,0,j7nguww,"Don't do that.  Have job security because you're valuable, not because you're the only one who knows where the bodies are buried.",13
+112h9rr,Fair interview questions for entry level position,26,18,j8k3mzj,"If the job requirement has CS degree, then it's not hard at all. If the job requirement has no CS degree and 1-2 year junior, then yes, probably hard. Beside, you don't want a question that you can't drill into. Asyncio/threading/multi-processing is not an easy topic to get in depth conversation with a junior.",11
+10qydre,"2,000 free sign ups available for the ""Automate the Boring Stuff with Python"" online course. (Feb 2023)",34,207,j6si5hh,Thank you for providing these!,10
+10ugecz,"Code review request: remove ""global"" variable",34,6,j7bsbg2,"Part of the problem is `get_guess` is doing way too much. I would expect a function called `get_guess` to just ""get a guess"". It's actually the main game loop though (at least the main loop for rounds), and is responsible for also setting the highscore. I would instead pass the score back from the function, and have the caller handle the highscore:
+
+    """"""
+    Python Web Development Techdegree
+    Project 1 - Number Guessing Game
+    --------------------------------
+    """"""
+    
+    import random
+    import sys
+    
+    def get_guess(attempts, answer):
+        while True:
+            try:
+                attempts += 1
+                guess = int(
+                    input(""Try to guess the random number between 1 and 10.  ""))
+                if guess > 10 or guess < 1:
+                    # Handle out of range guesses
+                    print(
+                        f""{guess} is out of range 😕 the random number is between 1 and 10"")
+                    continue
+                elif guess > answer:
+                    print(""It's lower ⬇"")
+                    continue
+                elif guess < answer:
+                    print(""It's higher ⬆"")
+                    continue
+                elif guess == answer:
+                    # Handle correct guess
+    
+                    return attempts
+                else:
+                    print(""Oops 😕 ... something went wrong. Please try again."")
+                    continue
+            except ValueError as err:
+                # Handle invalid value guesses
+                print(""Oh no! That's not a valid number 😕. Try again..."")
+                print(f""({err})"")
+                continue
+    
+    
+    def start_game():
+        # Reset attempts and new random number before each round
+        attempts = 0
+        answer = random.randint(1, 10)
+        
+        return get_guess(attempts, answer)
+    
+    
+    def main():
+        high_score = 0
+        
+        name = input(""What is your name?  "")
+        print(f""Welcome to the number guessing game {name}! 😄"")
+        attempts = start_game()
+        
+        while True:
+            if high_score != 0:
+                print(f""The current high score is {high_score} 🤗"")
+                
+            if high_score == 0 or attempts < high_score:
+                high_score = attempts
+                print(""You set the high score! 🤩"")
+                
+            # Prompt player if they would like to replay
+            replay_choice = (input(""Would you like to play again? Y/N?  "")).lower()
+            if replay_choice == ""y"":
+                attempts = start_game()
+            elif replay_choice == ""n"":
+                sys.exit(
+                    f""Thank you for playing the random number guessing game {name} 😸"")
+            else:
+                # Handle invalid input
+                print('Oops 😕 ... please enter either ""Y"" or ""N""')
+    
+    
+    if __name__ == ""__main__"":
+        main()
+
+Notice I changed the global to be a local variable of `main`, and changed both of the other functions to return the number of attempts taken so `main` can decide what the highscore is.
+
+***
+
+Also, don't do what you're doing on lines 33-35. Use a normal conditional statement to decide which of two actions to carry out. The conditional expression you're using (`blah if condition else blah`) is for deciding which of two values to use. If you really wanted to use a conditional expression, use it to decide the message. In reality though, you don't even need to duplicate the entire message:
+
+    print(f""Got it! 🥳 \n It took {attempts} attempt{'' if attempts == 1 else 's'} to get the correct number \n Game over 👋. \n Thank you for playing {name} 😄"")",8
+10smw8f,Code Review Request for Blackjack,28,4,j72bghm,"A few thoughts:
+
+* I think the logic may break as hands get more than a couple cards (see line 54)
+* Try and clean up those globals
+* Add some methods to your classes.  A good class has both data and things that work on the data.  This might be a way to clean up the previous comment, too.
+* Add a method to hand that calculates the value.
+* Dealer should have a method to shuffle the shoe.",4
+10sz3nl,Help with accessing a global variable,32,0,j74cl4s,"Because you assign `attempts` (`+=`) inside the function, Python considers it to be a local variable unless you say otherwise. There is no existing local value for `attempts` though, thus the error.
+
+When assigning a global within a function, you need to tell Python that it's a global:
+
+     def get_guess():
+        global attempts
+        try:
+            guess = int(
+                input(""Try to guess the random number between 1 and 10.  ""))
+            attempts += 1
+
+This is due to Python not having declarations, so it isn't possible to look at a usage of `=` alone and tell if the intent was to reference a existing global, or create a new local. Python defaults to the latter unless you tell it otherwise.
+
+I would argue though that a better fix it to not use globals in the first place, but that might be a little advanced at the moment.",3
+10urrug,Ask Anything Monday - Weekly Thread,155,7,j7du572,"Hey all,
+
+I’m currently using CodeAcademy to learn Python. Is this a good source or do you guys have any other resources / recommendations?",2
+110u610,Ask Anything Monday - Weekly Thread,95,4,j8erlok,"I'm pretty dumb but I've started using Python at work to make data usable in a dashboard.
+
+The excel reports I receive are a bit of a mess. The first 10 rows or so contain the report title, date, and other parameters that aren't especially useful to me.
+
+The data begins around row 11 and has several columns.
+
+I've used pandas to import the excel report and split it into two data frames. The first data frame contains the report title, date, and the superfluous information whereas the second data frame contains the actual data I'm concerned with.
+
+I've added the Report name and Report date as columns to the second data frame and python now saves it as [Report Date]_[Reportname].xlsx.
+
+This is amazing!
+
+Now I need to tweak the code to apply this same set of transformation to all excel files in a specific directory.
+
+Does anyone have any suggestions as far as what concepts to google to start hacking this code together?
+
+I receive new reports daily and they all need to be transformed in a similar fashion. Theoretically I'd like to apply this same code to excel files so I only have to run the script once.
+
+I expect to have to hack together a script for each different report since they all have their own quirks (number of rows present before the data actually starts.) In my head, I'm thinking I'll create directories for each report, point the scripts at each specific directory, and then run the script which transforms each file as dictated by the script in the specified directory. 
+
+Is that a bad idea for important reasons that I'm just too dumb at this point to recognize?",2
