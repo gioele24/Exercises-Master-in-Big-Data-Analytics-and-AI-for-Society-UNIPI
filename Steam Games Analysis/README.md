@@ -1,0 +1,1 @@
+This work is the final (group) project of the Master. I personally worked on the parts concerning data engineering and data mining/machine learning. The outcome of the analysis was then reported into the following [webpage](https://scordinod1994.github.io/g1-2025-website).
