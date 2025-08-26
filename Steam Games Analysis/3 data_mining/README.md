@@ -1,0 +1,2 @@
+`steam_games.zip` contains the output csv of the previous folder (`2 data_preparation`). Such file is then analyzed in the `steam_games_data_mining.ipynb` notebook. `games_list_v3.csv` is used to enrich the starting dataset with some data scraped from `Metacritic`. 
+`data_type_fix.py` is used to handle efficiently the various data types in the dataset. `custom_theme.py` is used to impose a custom theme to the plots.
