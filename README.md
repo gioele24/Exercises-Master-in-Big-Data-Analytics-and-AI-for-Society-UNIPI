@@ -1,0 +1,1 @@
+Here there are most of the exercises/projects that I have done during the second level Master in [Big Data Analytics & Artificial Intelligence for Society](https://masterbigdata.it/en) provided by the University of Pisa in the academic year 2024/2025.
