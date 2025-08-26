@@ -1,0 +1,1 @@
+`steam_games_dataset.zip` contains the output csv file of the `steam_games_data_mining.ipynb` notebook. Such csv is then used as input dataset of the `steam_games_predictive_model.ipynb` notebook. `data_type_fix.py` has the same function of the previous cases.
